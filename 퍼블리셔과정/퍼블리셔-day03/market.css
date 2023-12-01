@@ -1,0 +1,67 @@
+
+.Product-wrapper{
+    display: flex;
+    flex-direction: column;    
+}
+
+.Prdouct-image-wrapper{    
+    margin : 0 auto;
+}
+
+.button_wrpper{    
+    
+    margin : 10px auto;          
+    width : 249px;
+    display: flex;
+
+}
+
+.button_add_to_cart{
+    background-color: white; 
+
+    width: 100%;    
+    border-radius: 5px;        
+    
+    padding: 10px 0px ;
+    margin : 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.button_add_to_cart >img{
+    margin : auto 0    ;
+}
+
+.button {
+    font-family:'Malgun Gothic';    
+}
+.product_info_wrppaer {    
+    margin : 0 auto;    
+}
+.product_info_wrppaer > h3  {
+    font-size: 16px;
+}
+.origianl-price{
+    color:  rgb(181,181,181);
+    text-decoration: line-through;
+}
+.discout-rate{
+    color : rgb(250,98,47)    
+}
+.discounted-price{
+    color : rgb(51,51,51)    
+}
+
+.review-count{
+    margin-top : 10px;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+}
+
+.review-number{
+    color : rgb(181,181,181)    
+}
